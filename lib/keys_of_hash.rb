@@ -5,6 +5,7 @@ class Hash
     keys_array = []
     arguments.each do |argument|
       if self.keys.include?(argument)
+        binding.pry
         keys_array << argument
       end
     end
