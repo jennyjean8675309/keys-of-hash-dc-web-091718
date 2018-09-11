@@ -6,4 +6,5 @@ class Hash
       end
     end
   end
+  keys
 end
