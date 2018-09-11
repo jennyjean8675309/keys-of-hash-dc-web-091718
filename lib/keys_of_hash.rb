@@ -1,10 +1,11 @@
 class Hash
   def keys_of(*arguments)
-    self.collect do |keys, values|
+    keys_array = []
+    self.each do |keys, values|
       if keys == arguments
-        keys
+        keys_array << keys
       end
     end
   end
-  keys
+  keys_array
 end
