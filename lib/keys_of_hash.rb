@@ -3,5 +3,6 @@ class Hash
     self.collect do |keys, values|
       if keys == arguments
         keys
+      end
   end
 end
