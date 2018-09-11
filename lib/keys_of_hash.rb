@@ -1,6 +1,7 @@
 class Hash
   def keys_of(*arguments)
-    arguments.collect do |argument|
-      if 
+    self.collect do |keys, values|
+      if keys == arguments
+        keys
   end
 end
