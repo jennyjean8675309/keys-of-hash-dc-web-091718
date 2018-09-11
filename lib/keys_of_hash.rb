@@ -4,5 +4,6 @@ class Hash
       if keys == arguments
         keys
       end
+    end
   end
 end
