@@ -8,7 +8,6 @@ class Hash
         keys_array << argument
       end
     end
-    binding.pry
     keys_array
   end
 end
