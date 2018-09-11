@@ -5,7 +5,6 @@ class Hash
     keys_array = []
     arguments.each do |argument|
       self.each do |key, value|
-        binding.pry
         if self[key] == argument
           keys_array << key
         end
