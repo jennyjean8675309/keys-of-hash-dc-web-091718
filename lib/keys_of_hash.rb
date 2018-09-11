@@ -10,6 +10,7 @@ class Hash
         keys_array << keys
       end
     end
+    end
     keys_array
   end
 end
