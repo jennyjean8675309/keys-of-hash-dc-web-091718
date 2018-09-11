@@ -9,6 +9,7 @@ class Hash
         if self[key] == argument
           keys_array << key
         end
+      end
     end
     keys_array
   end
